@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Foodstore website using Bootstrap</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Latest compiled and minified CSS -->
+<!--        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
+        <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.min.css">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="bootstrap-3.2.0-dist/css/bootstrap-theme.min.css">
+        
+        
+<!--        FontAwesome font library-->
+
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+        <!-- Latest compiled and minified JavaScript -->
+       
+        
+        <link rel="stylesheet" type="text/css" href="theme/applicationBootstrap.css">
+<!--        <link rel="stylesheet" type="text/css" href="theme/customNew.css">-->
+        <script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+        <script src="bootstrap-3.2.0-dist/js/jquery-1.11.1.min"></script>
+
+    </head>
+    <body>
+        <div id="header">
+            <div class="headerContainer">
+                <div class="row">
+                    <div class="col-lg-8 headerLeft">
+                        <div class="headerLeftItems"> <i class="fa fa-heart"></i> &nbsp; Wish List (0)</div>
+                        <div class="headerLeftItems1"> <i class="fa fa-user"></i> &nbsp;My Account</div>
+                        <div class="headerLeftItems"> <i class="fa fa-shopping-cart"></i> &nbsp;Shopping Cart</div>
+                        <div class="headerLeftItems"> <i class="fa fa-file"></i> &nbsp;Checkout</div>
+                       <div class="headerLeftItems">Welcome visitor you can <a href="http://login">login</a> or <a href="http://rout for creating accnt">create an account</a></div>
+                    </div>
+                    <div class="col-lg-4 headerRight">
+                        <span class="b">€</span> &nbsp;
+                        <span class="b">₤</span> &nbsp;
+                        <div class="dollorinBox pull-right">
+                            $
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+<!--        Header1 Starts here -->
+
+        <div id="header1">
+            <div id="header1Container">
+                <div class="row header1content">
+                    <div class="col-lg-4">
+                        <div class="anchorPic"><img src="asset/images/logo.png" class="img-responsive" alt="Responsive img">
+                        </div> </div>
+                    <div class="col-lg-8" >
+                        <div class="header1Column"> 
+                            <div class="iconPic">
+                                <span class="fa-stack fa-lg ">
+                                    <i class="fa fa-truck"></i></span></div>
+                            <div class="iconText">FREE DELIVERY<br> <span>ON ORDER OVER $7.00 </span></div>
+                        </div>
+                        <div class="header1Column"> 
+                            <div class="iconPic">    <span class="fa-stack fa-lg ">   <i  class="fa fa-phone"></i></span> </div>
+                            <div class="iconText"> CALL TOLL FREE<br> 1800-123-COFFEEIS </div>
+                        </div>
+                        <div class="header1Column">
+                            <div class="iconPic">    <span class="fa-stack fa-lg "> <i  class="fa fa-shopping-cart"></i></span> </div>
+                            <div class="iconText " >SHOPPING CART<br> O ITEM(S) - $0.00  <i class="fa fa-caret-down"></i></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!--          Home navigation      -->
+                <div class="nav">
+
+                    <div class="row">
+
+                        <div class="col-lg-8">
+                            <div class="homeNavigation " >
+                                <div class="navItems  active nopadding"> <div class="fa-hover col-lg-1"><i class="fa fa-home"></i></div> &nbsp; &nbsp<a href="#">HOME </a></div>
+                                <div class="navItems"> <a href="#"> BREAKFAST </a> <i class="fa fa-caret-down"></i></div>
+                                <div class="navItems"> <a href="#">CHICKEN </a> <i class="fa fa-caret-down"></i> </div>
+                                <div class="navItems"> <a href="#">SALADS  </a></div>
+                                <div class="navItems"> <a href="#">DRINKS  </a> <i class="fa fa-caret-down"></i> </div>
+                                <div class="navItems"> <a href="#"> BURGERS  </a></div>
+                                <div class="navItems"> <a href="#"> BLOG </a> </div>
+                            </div> 
+                        </div>
+
+
+                        <div class="col-lg-4 pull-right">
+                            <div class="homeNavigation">
+                                <div class="searchBox">
+                                    <form class="navbar-form navbar-right " role="search">
+                                        <div class="form-group pull-right "> 
+                                            <i class="icon-search"></i>
+                                            <input type="text" class="form-control" style="background: #9A8466; width:500px;height: 55px; font-size: 30px;" placeholder="Search" style= "color: whitesmoke;" name="srch-term" id="srch-term"> 
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        
+        
+<!--        Main body-->
+
+
+        <div id="bodyContainer">
+            <div class="row ">
+                <div class="col-lg-3">
+                    <div id="bodyColumn1">
+                        <div class="leftpaneTopPic">
+                            <img src="asset/images/pic10.png" >
+                        </div>
+                        <div id="leftpaneMenu">
+                            <div class="leftpaneItmes nopadding">
+                                <div class="row  nopadding">
+                                    <div class="col-lg-3 nopadding">
+                                        <div class="leftpanePic">
+                                            <img src="asset/images/menu.png" class="img-responsive" alt="responsive img">
+                                        </div> 
+                                    </div>
+
+                                    <div class="col-lg-9 nopadding ">
+                                        <div class="leftpaneText">
+                                            <h2> OUR MENU </h2> <br>
+                                            Nullu vel metus scelerisque <br> ante  sollictudin commodo 
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> <br> 
+
+                            <div class="row leftpaneItmes nopadding">
+                                <div class="col-lg-3 nopadding">
+                                    <div class="leftpanePic">
+                                        <img src="asset/images/menu.png" class="img-responsive" alt="responsive img">
+                                    </div> 
+                                </div>
+
+                                <div class="col-lg-9 nopadding ">
+                                    <div class="leftpaneText">
+                                        <h2> OUR WINES </h2> <br> 
+                                        Cras purus odio, vestibulum <br> in tempus viverra turpis. 
+                                    </div>
+                                </div>
+
+                            </div> &nbsp;
+
+                            <div class="row leftpaneItmes nopadding">
+                                <div class="col-lg-3 nopadding">
+                                    <div class="leftpanePic">
+                                        <img src="asset/images/menu.png" class="img-responsive" alt="responsive img">
+                                    </div> 
+                                </div>
+
+                                <div class="col-lg-9 nopadding ">
+                                    <div class="leftpaneText">
+                                        <h2> MEET THE TEAM </h2> <br>
+                                        Cras sit amet nibh libero <br> itudin commodoturpis.
+                                    </div>
+                                </div>
+
+                            </div> &nbsp;
+
+                            <div class="row leftpaneItmes nopadding">
+                                <div class="col-lg-3 nopadding">
+                                    <div class="leftpanePic">
+                                        <img src="asset/images/menu.png" class="img-responsive" alt="responsive img">
+                                    </div> 
+                                </div>
+
+                                <div class="col-lg-9 nopadding ">
+                                    <div class="leftpaneText">
+                                        <h2> WHER TO FIND US </h2> <br>
+                                        Cras sit amet nibh libero, in <br> veverra turpis.
+                                    </div>
+                                </div>
+
+                            </div> &nbsp;
+                        </div>
+                        <div class="leftbody1" >
+                            <div class="infoClass">INFORMATION  </div><hr>
+                            <div class="aboutUsClass"><h3> About Us</h3> </div>
+                            <div class="deliveryClass"> Delivery Information </div>
+                            <div class="deliveryClass"> Privacy Policy</div>
+                            <div class="deliveryClass"> Terms & Conditions</div>
+                            <div class="deliveryClass"> Contact Us</div>
+                            <div class="deliveryClass"> Site Map</div>
+                        </div> 
+
+                        <div id="special">
+
+                            SPECIALS
+                        </div>
+
+                        <div id="leftMenu">
+                            <div class="row  ">
+
+                                <div class="col-lg-4  ">
+                                    <div class="specialsPic">
+
+                                        <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                    </div>
+                                </div>
+                                <div class="col-lg-8  ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red; font-size=130px"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div> 
+
+                        <div id="leftMenu">
+                            <div class="row  ">
+                                <div class="col-lg-4  ">
+                                    <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                </div>
+                                <div class="col-lg-8  ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <div id="leftMenu">
+                            <div class="row nopadding ">
+                                <div class="col-lg-4  ">
+                                    <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                </div>
+                                <div class="col-lg-8  ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <div id="leftMenu">
+                            <div class="row  ">
+                                <div class="col-lg-4  ">
+                                    <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                </div>
+                                <div class="col-lg-8  ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <div id="leftMenu">
+                            <div class="row  ">
+                                <div class="col-lg-4  ">
+                                    <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                </div>
+                                <div class="col-lg-8  ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+
+                        <div id="leftMenu">
+                            <div class="row  ">
+                                <div class="col-lg-4  ">
+                                    <img src="asset/images/pic12.png" class="img-responsive" alt="responsive img">
+                                </div>
+                                <div class="col-lg-8 nopadding ">
+                                    <div class="leftpaneTextPrice"> FUSCE A CONGUE <br>
+                                        <strike> $119.50</strike><font color="red"> $ 96.00</font>
+                                        <div class="rating">
+                                            <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+
+                
+<!--                Main body column two -->
+                
+                
+            <div class="col-lg-9 ">
+                        <div id="bodyColumn2">
+
+                            <img src="asset/images/pic71.png" class="img-responsive" alt="responsive img" >
+                        </div>
+
+                        <div class="col2SecondPic">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <img src="asset/images/dolore.png" class="img-responsive" alt="responsive img" >
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="asset/images/pic9.png" class="img-responsive" alt="responsive img" >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--                    Bottom menu with price tags -->
+
+                        <div class="col-lg-12" style="padding-top: 50px" style="display: inline">
+                            <div class="rightMenuHeader" style="display: inline" >
+                                <span> <img src="asset/images/tree.png" class="img-responsive" alt="responsive img" style="display: inline"> </span> 
+                                <font color="green"> BEST</font> SELLER  </div> 
+                            <div class="pull-right"> <span><a href="/#"><i class="fa fa-caret-left fa-3x"></i> </a></span> &nbsp;&nbsp;
+                                <span><i class="fa fa-caret-right fa-3x"></i></span> </div>
+                            <hr>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-resleftponsive" alt="Responsive img"> 
+                            <hr>
+                            FUSCE VESTIBULUM <br> 
+                            <span style= "font-size: 35px; color: red"> $119.50</span>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke; ">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            MORBI ULLAMCORPER <br>
+                            <strike> $119.50 </strike><span style= "font-size: 35px; color: red"> $96.00</span>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span> <br> <br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            MOLLICITUDIN LOBORTIS <br>
+                            <strike>$119.50</strike> <span style= "font-size: 35px; color: red"> $113.63</span>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            DONEC TELLUS PURUS <br>
+                            <p style= "font-size: 35px; color: red"> $119.50</p>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <!--                    Second menu items-->
+                        
+                        <div class="col-lg-12" style="padding-top: 75px" style="display: inline">
+                            <div class="rightMenuHeader" style="display: inline" >
+                                <span> <img src="asset/images/tree.png" class="img-responsive" alt="responsive img" style="display: inline"> </span> 
+
+
+                                <font color="green"> MOST</font> VIEWED  </div> 
+                            <div class="pull-right"> <span><i class="fa fa-caret-left fa-3x"></i> </span> &nbsp;&nbsp;
+                                <span><i class="fa fa-caret-right fa-3x"></i></span> </div>
+                            <hr>
+                        </div>
+
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            FUSCE A CONGUE <br>
+                            <p style= "font-size: 35px; color: red"> $119.50</p>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            MORBI ULLAMCORPER <br>
+                            <p style= "font-size: 35px; color: red"> $119.50</p>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            DONEC TELLUS PURUS <br>
+                            <p style= "font-size: 35px; color: red"> $119.50</p>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col2Pic3">
+
+                            <img  src="asset/images/pic11.png" class="img-responsive" alt="Responsive img"> 
+                            <hr>
+                            POSUERE LACUS <br>
+                            <strike>$119.50</strike><span style= "font-size: 35px; color: red"> $101.88</span>
+                            <div class="rating">
+                                <span>☆</span><span>☆</span><span>☆</span><span>☆</span><span>☆</span><br><br>
+                            </div>
+                            <div class="addtocart">
+                                <button type="button" style="width:250px; height:70px; background: #5FC152; color:whitesmoke">ADD TO CART</button>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            
+            
+<!--            Bottom menu for items-->
+
+<div class="row bottomMenu">
+
+    <div class="col-lg-4 ">
+        <div class="chickenClass nopadding">
+            <div class="row nopadding">
+
+                <div class="col-lg-6 " style="background:#EFEFEF; padding-left:25px;">
+                    <div class="chickenClassHead"> CHICKEN</div><br><br>
+                    <div class="chickenClassContent" >
+                        Nullua vel metus scelerisque ante soccicitiudin commodo
+                    </div>
+                </div>
+                <div class="col-lg-6 nopadding"> 
+                    <img src="asset/images/pic6.png">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="sodaClass1">
+            <div class="row">
+                <div class="col-lg-6" style="background:#EFEFEF; padding-left:10px">
+                    <p style="font-size: 35px; padding-top: 15px; padding-left: 10px; color:red; font-weight:bold"> SODA-BURGER</p><br>
+                    <div class="sodaClass">
+                        Nullua vel metus scelerisque ante soccicitiudin commodo
+                    </div>
+                </div>
+                <div class="col-lg-6 nopadding">  <img src="asset/images/pic4.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4">
+        
+            <div class="row">
+                <div class="breakfast">
+                <div class="col-lg-5" style=background:#EFEFEF >
+                    <div class="bfClass"> BREAKFAST</div>
+                    <div class="bfClass1">
+                        Nullua vel metus <br>scelerisque ante <br> soccicitiudin commodo
+                    </div>
+                </div>
+                <div class="col-lg-7 nopadding">  <img src="asset/images/pic5.png" class="img-responsive" alt="responsive img" style="height: 253px;" >
+                </div>
+            </div>
+        </div> 
+    </div>
+</div>
+</div>
+
+<!--      FOOTER ITEMS START HERE-->
+        
+<div id="footer1">
+    <div class="footer1Container">
+        <div class="col-lg-3 ">
+            <div class="abtUs ">
+                <font color="green">ABOUT </font>US </div>
+            <div class="abtusPic">  <img src="asset/images/dolore.png" class="img-responsive nopadding" alt="Responsive img"></div>
+
+            <div class="abtUsPara">Nam nec tellusa odio tincidunt auctor aornare odio. sod non maurius vitae
+                erat consequat sociosqu ad litora doloremipsumquia dolor sit
+                amet, consectetur feugiat, velit maurus egesstas quam,
+                ut aliquam massa nisl quils neque.</div>
+        </div>
+
+        <div class="col-lg-3 ">
+            <div class="abtUs ">
+                <font color="green">MY </font> GALLERY
+
+            </div>
+            <img src="asset/images/pic2.png" class="img-responsive" alt="Responsive img">
+        </div>
+
+        <div class="col-lg-3 ">
+            <div class="abtUs ">
+                <font color="green">MY </font> TWITTER
+            </div>
+            <div class="twitterClass">
+                <div class="row ">
+                    <div class="col-lg-2 ">
+                        <img src="asset/images/egg.png" class="img-responsive" alt="responsive img">
+                    </div>
+                    <div class="col-lg-4 nopadding">
+                        <div class="twitter nopadding">PavoThemes </div> 
+                        <div class="twitter nopadding"> @pavothemes </div>
+                    </div>
+                    <div class=" col-lg-offset-1 pull-right tareekh">
+                        18 March 
+                    </div>
+                </div>
+                <p style="font-size: 25px;"> Pav Oneshop Responsive Opencart Theme-<br>PavoThemes</p>
+                <p style="font-size: 25px; color:red"> Pavthemes.com/opencart-theme...via<br> @pavothemes</p>
+                <p style="font-size: 25px; color:grey">Expand </p>
+
+                <div class="row">
+                    <div class="col-lg-2 ">
+                        <img src="asset/images/egg.png" class="img-responsive" alt="responsive img">
+                    </div>
+                    <div class="col-lg-4 nopadding">
+                        <div class="twitter nopadding">PavoThemes </div> 
+                        <div class="twitter nopadding"> @pavothemes </div>
+                    </div>
+                    <div class="pull-right tareekh">
+                        16 March
+                    </div>
+                </div>
+                <p style="font-size: 25px;"> Pav Oneshop Responsive Opencart Theme-<br>PavoThemes</p>
+                <p style="font-size: 25px; color:red"> Pavthemes.com/opencart-theme...via<br> @pavothemes</p>
+                <p style="font-size: 25px; color:grey">Show Summary </p>
+            </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="abtUs ">
+                <font color="green">LATEST </font> BLOG
+            </div>
+            <div class="latestBlog">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="asset/images/pic3.png" class="img-responsive" alt="Responsive img">
+                    </div>
+                    <div class="col-lg-8">
+                        <p style="color:red; font-size: 28px;" >Donec tellus lorem elit tristique </p><br>
+                        <p style="font-size: 25px;"> Odio ut pretium ligula quam Vestibulume consquat convallis fringil..</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="latestBlog">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="asset/images/pic3.png" class="img-responsive" alt="Responsive img">
+                        </div>
+                        <div class="col-lg-8">
+                            <p style="color:red; font-size: 28px;" >Neque porro quisquam dolorem </p><br>
+                            <p style="font-size: 25px;"> Sed ut perspiciatis unde omnis iste natus erro sit voluptatem accru</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="latestBlog">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img src="asset/images/pic3.png" class="img-responsive" alt="Responsive img">
+                        </div>
+                        <div class="col-lg-8">
+                            <p style="color:red; font-size: 28px;"> Commodo laoreet semper lorem </p><br>
+                            <p style="font-size: 25px;"> Commodo laoreet semper tincidunt lorem vestibulum nunc at in Curabi ..</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="footer2">
+   
+    <div class="row">
+        <div class="col-lg-3">
+            <div class="contact">
+                CONTACT US
+            </div>
+            <div class="contactElement">
+                <div class="phoneGreen"><i class="fa fa-map-marker"></i></div> &nbsp;
+              <div class="phone">  Proio gravida nibhi vel velit auctor aliquet </div> 
+            </div> <br>
+            
+            <div class="contactElement">
+                 <div class="phoneGreen"> <i class="fa fa-mobile"></i> </div>&nbsp;&nbsp;
+               <div class="phone">Phone: +01 888(000) 1234 </div>
+            </div><br><br>
+
+            <div class="contactElement">
+                <div class="envelope"><i class="fa fa-envelope-o"></i></div> &nbsp;&nbsp;
+               <div class="phone">Email : nitin@obelisksolutions.in</div>
+            </div>
+        </div>
+        
+        <div class="col-lg-2">
+            <div class="contact">
+                CUSTOMER SERVICE
+            </div>
+            <div class="custServ">
+                Contact Us
+            </div>
+            <div class="custServ">
+                Returns
+            </div>
+            <div class="custServ">
+                SiteMap
+            </div>
+            <div class="custServ">
+                Gift Vouchers
+            </div>
+        </div>
+        
+        <div class="col-lg-2">
+            <div class="contact">
+                EXTRAS
+            </div>
+            <div class="custServ">
+                Brands
+            </div>
+            <div class="custServ">
+                Gift VOuchers
+            </div>
+            <div class="custServ">
+                Affiliates
+            </div>
+            <div class="custServ">
+                Specials
+            </div>
+        </div>
+        
+        <div class="col-lg-2">
+            <div class="contact">
+                MY ACCOUNT
+            </div>
+            <div class="custServ">
+                My Account
+            </div>
+            <div class="custServ">
+                Order History
+            </div>
+            <div class="custServ">
+                Wish List
+            </div>
+            <div class="custServ">
+                Newsletter
+            </div>
+            <div class="custServ">
+                Specials
+            </div>
+        </div>
+        
+        <div class="col-lg-3">
+            <div class="contact">
+                NEWSLETTER
+            </div>
+            <div class="custServ">
+                Make sure you dont miss interesting<br> happening by joining our newsletter program.<br>
+                We dont do spam. Ever. Because that sucks.
+            </div>
+            
+            <div>
+                <input type="text" style="width:450px;height: 55px; font-size: 30px;" placeholder="Your Email Address">
+                            <button type="button"style="height: 55px; font-size: 30px; background:#5FC152"> OK</button>   
+                        </div>
+        </div>
+      </div>
+</div>
+
+        <div id="footer3"> 
+            <div class="footer3Container">
+                <div class="footer3ContainerText">
+                    Powered By <font color="green">OpenCart </font><br>
+                    Pav FoodStore - Responsive Opencart Theme &copy 2014. 
+                    Designed By  <font color="green">PavoThemes</font> 
+                </div>
+            </div>
+        </div>
+        
+         <script src="bootstrap-3.2.0-dist/js/jquery-1.11.1.min.js"></script> 
+         <script src="bootstrap-3.2.0-dist/js/custom.js"></script> 
+<!--        <div id="footer0"> </div>-->
+    
+                
+        </body>
+</html>

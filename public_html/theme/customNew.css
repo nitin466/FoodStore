@@ -1,0 +1,503 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 8, 2014, 5:36:06 PM
+    Author     : nitin
+*/
+
+html,
+body {
+    margin: 0 auto;
+    height: 3861px;
+    width: 2900px;
+   
+}
+.container{
+    width: 2300px;
+    margin: 0px 10%;
+}
+#wrapper {
+/*    height:970px;
+    width: 690px;*/
+  //  border: solid 3px black;
+    margin:0 auto;
+}
+.footer {
+    position: relative;
+    left: 0px;
+}
+#footer0 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+    
+    width: 100%;
+    height: 20px;
+    background: black;
+    display: table;
+    //text-align: left;
+}
+.footer0content {
+    margin: auto;
+    width: 2300px;
+}
+
+#footer1  {
+    width: 100%;
+    
+    position: relative;
+    display: table;
+    
+    font-size: 31px;
+    text-align: left;
+    height:40px;
+    background: #F8F8F8;
+    line-height: 1.5;
+    //border: solid 2px green;
+    left: 0; 
+    bottom:70px;
+}
+.footer1Column {
+    width: 100%;
+    height: 38px;
+    display: table-cell;
+    float:left;
+    width: 18%;
+    //border: solid 1px blue;
+    padding-left: 15px;
+    height: 100%;
+}
+.footer1ColumnContent {
+    height: 685px;
+    width:100%;
+    //margin-left: 250px;
+   // margin-right: 250px;
+  //  border: solid 1px black;
+    //bottom: 0;
+    
+}
+#footer1Container {
+    margin: auto;
+     width:2300px;
+    
+}
+#footer2Container {
+    width:2300px;
+    margin:auto;
+}
+#footer2 {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    display: table;
+    
+    font-size: 15px;
+    text-align: left;
+    
+    background:#F8F8F8;
+    line-height: 1.5;
+    //border: solid 4px black;
+}
+.footer2Column {
+    height: 768px;
+    width: 100%;
+   // margin-left: 250px;
+   // margin-right: 250px;
+    display: table;
+    float: left;
+ //   border: solid 1px black;
+   //position: relative;
+}
+.footer2ColumnContent {
+    
+    width:25%;
+    display: table-cell;
+   // border: solid 2px black;
+    
+    font-size: 22px;
+    padding-top: 23px;
+    //float:left;
+    height: 768px;
+    word-wrap: break-word;
+   
+}
+#lateblog {
+    display: table;
+    float:left;
+    //border:solid 1px black;
+    width: 100%;
+     overflow: hidden;
+    
+}
+.lateblog1 {
+    display: table-cell;
+    width: available;
+    height:100%;
+    word-break: break-all;
+    vertical-align: top;
+    font-size: 20px;
+    //font-size: 135%;
+}
+
+#header {
+   width: 2860px;
+   //padding:20px;
+    background:#E4DCD2;
+   height: 77px;
+   line-height: 27px;
+   // padding-bottom: 10px;
+    display: table;
+    //vertical-align: ;
+    //text-align: center;
+  //  padding-left:20%;
+  //  padding-right: 20%;
+    //position: relative;
+    font-size: 150%;
+}
+
+.leftTop {
+   display: table-cell;
+    width: 94%
+}
+.rightTop {
+    width: 10%;
+    display: table-cell;
+}
+.login {
+    width:1527px;
+    display: table-cell
+}
+.columnHeader {
+    display:table-cell;
+    width: 20%;
+    line-height: 26px;
+    vertical-align: middle;
+    right:0;
+    
+}
+.header1Margin {
+     height: 100%;
+    width:relative;
+    margin-left: 250px;
+    margin-right: 250px;
+   // border: solid 1px black;
+}
+
+#header1 {
+    width: 100%;
+    margin: auto;
+   // padding:25px;
+    background:#F7EEE4;
+    height: 40px;
+   // line-height: 20%;
+    display: table;
+    // padding-left:20%;
+   // padding-right: 20%;
+   float: left;
+   
+}
+#header1Container {
+    margin: auto;
+    width: 2300px;
+}
+.header1Column {
+    display: table-cell;
+    width: 16%;
+    font-size: 34px;
+   // font-weight: normal;
+    line-height: 1;
+   
+    //font-size: 34px;
+   // top: 10px;
+   // margin: 0;
+   text-align: left;
+    position: relative;
+   
+    
+}
+#bodyBottomPic {
+    width:100%;
+    height: 10%;
+    display: table;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    //border: solid 4px black;
+}
+
+.bodyBottomPicCol {
+    width:33%;
+    height: 100%;
+    height: relative;
+    display: table-cell;
+    background:gainsboro;
+    text-align: left;
+    float: left;
+    word-wrap: break-word;
+    float: left;
+   // border: solid 2px red;
+   
+        
+}
+.bodyBottomPic1 {
+    width: 45%;
+    float:left;
+    word-wrap: break-word;
+    display: table-cell;
+    
+        
+}
+
+.bodyBottomPicInner {
+ 
+    width: 50%;
+    max-height: 100%;
+    float: right;
+    display: table-cell;
+       
+    
+}
+
+
+#container {
+    
+    width: 4600px;
+    margin:0 auto;
+    text-align: center;
+    height: 4000px;
+    
+    //border: solid 2px red;
+    position: relative;
+}
+
+#mainBody {
+    height: 90%;
+    width: 100%;
+    //border: solid 2px green;
+    display: table;
+    float: left;
+    padding-top: 20px;
+}
+.mainBodyCol1 {
+    width: 25%;
+    top: 0px;
+    height: 3130px;
+    display: table-cell;
+   // border: solid 1px blue;
+}
+.mainBodyCol1Table {
+    
+    display: table;
+    float: left;
+    padding-left: 5px;
+    margin-bottom: 2px;
+    
+}
+.mainBodyCol2 {
+    width: 75%;
+    height: 100%;
+    display: table-cell;
+    //border: solid 1px orangered;
+    top: 0;
+    position: relative;
+}
+
+.leftbody {
+    background: #EDEDED;
+    width: 100%;
+    font-size: 195%;
+    
+    
+}
+
+.leftbody1 {
+    background: #2D2D2D;
+    color: white;
+    padding-left: 5px;
+    width: 100%;
+    height: 25%;
+    
+   
+}
+.x {
+    display: table-cell;
+    float:left;
+    font-size: 150%;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+.y {
+    display: table-cell;
+    padding-bottom: 12px;
+   
+}
+.leftbody11 {
+    display: table-cell;
+}
+.leftbody2 {
+    display: table-cell;
+}
+.rightbody1 {
+    height: 37%;
+    width: 100%;
+    position: absolute;
+    top:0;
+
+}
+.col2Pic2 {
+    display: table;
+    float: left;
+    width: 100%;
+    height:10%;
+    position: absolute;
+    top: 926px;
+    left: 8px;
+        
+}
+.colPic22 {
+    width: 50%;
+    display: table-cell;
+    
+}
+.col2Pic3 {
+    display: table;
+    float: left;
+    height: 40%;
+    width: 24%;
+    font-size: 180%;
+     
+}
+.items {
+    //margin-bottom: 41px;
+    position: absolute;
+    top: 1268px;
+    padding-left: 36px;
+}
+.items2 {
+    position: absolute;
+    top:2224px;
+     padding-left: 36px;
+}
+.leftpane {
+    
+    height: 8px;
+    width: 100%;
+    font-size: 200%;
+    
+    background: greenyellow;
+}
+.leftpanecont {
+    display: table-cell;
+    float: left;
+}
+.leftpanePic {
+    display: table-cell;
+    float:left;
+   
+}
+.leftpaneText {
+     display: table-cell;
+    float:left;
+    font-size: 150%;
+    line-height: 1.5;
+    margin-left: 30px;
+}
+.leftpaneTopPic {
+    display: table-cell;
+    float: left;
+}
+
+#containerHeader {
+/*    width: 690px;
+    height: 70px;
+    //border: solid 1px black;*/
+
+margin:0;
+//text-align: center;
+}
+#headercontainer2 {
+    width: 2300px;
+    margin:auto;
+}
+
+#bodyContainer {
+    width:2300px;
+    margin:auto;
+    height: 3132px;
+    //border:solid 2px red;
+}
+.imgFloattop {
+//float: top;
+margin-top: 0px;
+height: 496.997px;
+}
+
+.imgProperty {
+    height: 500px;
+    width: 552px
+}
+.imgCrousel {
+    width: 1720px;
+    height: 590;
+}
+#homecontent {
+    width: 2300px;
+    height: 110px;
+    background: grey;
+    position: relative;
+    bottom: 0;
+}
+
+#bottomMenu {
+    margin:auto;
+    width: 2329px;;
+    height: 285px;
+    top:18px;
+    left:13px;
+    position: relative;
+}
+
+#botpic {
+    width:100%;
+  //  top: 850px;
+    display: table;
+    position: relative;
+    //padding: 10px;
+    //bottom: 0px;
+   // left: 0px;
+}
+
+.botpic1 {
+    width:33%;
+    display: table-cell;
+    background:gainsboro;
+    text-align: left;
+    float: left;
+    word-wrap: break-word;
+    float: left;
+    height: 275px;
+   
+        
+}
+.botpic11 {
+    width: 34%;
+    float:left;
+    word-wrap: break-word;
+    display: table-cell;
+    font-size: 170%;
+    
+        
+}
+
+.botpic2 {
+ 
+    //width: 35%;
+    height: 100%;
+    float: right;
+    display: table-cell;
+}
+
