@@ -133,7 +133,7 @@ span {
     font-size: 30px;
     padding: 16px;
     bottom:0;
-    top:60px;
+    top:70px;
     background: #B49873;
     position: relative
 }
@@ -165,9 +165,28 @@ span {
 .leftbody1 {
     background: #2D2D2D;
     color: white;
+    position: relative;
+    margin-right: 10px;
+    height: 532px;
+   // display: table;
+   // float: left;
     //padding-left: 5px;
-  //  width: 100%;
+    width: 543px;
   // height: 100%;
+}
+
+.triangleContainer {
+    width: 40px;
+    height: 59px;
+        
+}
+.triangle {
+    width: 0px;
+    height: 0px;
+    border-bottom: 40px solid #2D2D2D;
+    border-left: 40px solid #5FC152;
+    display: table-cell;
+   // margin-right: 5px;
 }
 .rating {
   //unicode-bidi: bidi-override;
@@ -184,42 +203,60 @@ span {
    position: absolute;
 }
 .infoClass {
-    height: auto;
-    line-height: 75px;
-    padding-left: 55px;
+    height: 70px;
+    //line-height: 75px;
+    //padding-left: 55px;
     position: relative;
-    padding-top: -11px;
-    font-size: 43px;
+    display: table;
+    float: left;
+    //padding-top: 8px;
+    //font-size: 39px;
+    //font-weight: bold;
+    border: 1px solid rgba(250,250,250, .05);
+}
+.infoClassText {
+  display: table-cell;
+  padding-left: 13px;
+  width: 520px;
+ // height: 50px;
+    line-height: 75px;
+   // padding-left: 4px;
+    position: relative;
+    //padding-top: 8px;
+    font-size: 39px;
     font-weight: bold;
+    //border: solid 1px white;
+      
 }
 
 .aboutUsClass {
-    height: 75px;
+    height: 187px;
+   // position: relative;
     //line-height: 77px;
-    padding-left: 45px;
-    vertical-align: bottom;
+    padding-left: 40px;
+    //vertical-align: bottom;
      font-weight: bold;
-     padding-top: 25px;
-    border-bottom:solid 1px gray;
+     padding-top: 132px;
+    border-bottom:1px solid rgba(255,255,255,.05);
 }
 .deliveryClass {
    // height: 70px;
-    padding-top: 15px;
+    padding-top: 11px;
     height: 70px;
    // padding-bottom: 15px;
-    padding-left: 45px;
+    padding-left: 40px;
     position: relative;
     font-weight: bold;
-    font-size: 23px;
-    border-bottom: solid 1px gray; 
+    font-size: 25px;
+    border-bottom: 1px solid rgba(255,255,255,.05);
 }
 .leftpaneTopPic {
-    padding-bottom: 38px;
+    padding-bottom: 44px;
 }
 #leftpaneMenu {
     height:auto;
     position: relative;
-    padding-bottom: 2px;
+    padding-bottom: 32px;
     
 }
 #leftMenu {
@@ -229,16 +266,20 @@ span {
 }
 .leftpaneItmes {
     background: #EDEDED;
-    height: 155px;
+    height: 168px;
     padding: 5px;
     font-size: 10px;
     bottom: 5px;
+    margin-right: 5px;
+    border-bottom: solid 3px white;
     //padding-left: 14px;
     //padding-right: 14px;
 }
 .leftpanePic {
-    height:154px;
-    padding-left: 20px;
+    //height:140px;
+   // padding-left: 20px;
+    margin-top:14px;
+   // height:538px;
     
    // width: 100%;
 }
@@ -252,8 +293,11 @@ span {
     color: grey;
     font-family:sans-serif;
    // bottom: 5px;
-   padding-top: 10px;
+   padding-top: 25px;
     
+}
+.leftpaneText h2 {
+     font-weight: bold;
 }
 .leftpaneTextPrice {
     background: white;
