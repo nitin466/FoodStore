@@ -128,12 +128,12 @@ span {
     width: 100%;   
 }
 .nav {
-    height: 103px;
+    height: 100px;
     line-height: 70px;
     font-size: 30px;
     padding: 16px;
     bottom:0;
-    top:70px;
+    top:62px;
     background: #B49873;
     position: relative
 }
@@ -230,18 +230,19 @@ span {
 }
 
 .aboutUsClass {
-    height: 187px;
+    height: 180px;
    // position: relative;
     //line-height: 77px;
-    padding-left: 40px;
+    padding-left: 38px;
     //vertical-align: bottom;
      font-weight: bold;
-     padding-top: 132px;
+     font-size: 25px;
+     padding-top: 126px;
     border-bottom:1px solid rgba(255,255,255,.05);
 }
 .deliveryClass {
    // height: 70px;
-    padding-top: 11px;
+    padding-top: 16px;
     height: 70px;
    // padding-bottom: 15px;
     padding-left: 40px;
@@ -260,9 +261,54 @@ span {
     
 }
 #leftMenu {
-   // top: 0;
-    height: 216px;
-    padding-top: 40px;
+   top: 0;
+    height: 270px;
+    padding-top: 20px;
+    background: #F8F8F8;
+   // margin-right: 10px;
+    display: table;
+    float: left;
+    border-bottom: solid 1px white;
+}
+#leftMenu2 {
+   top: 0;
+    height: 270px;
+    //padding-top: px;
+    background: #F8F8F8;
+   // margin-right: 10px;
+    display: table;
+    float: left;
+    border-bottom: solid 1px white;
+}
+#leftMenuPic2 {
+    padding-top: 0px;
+    top: 0;
+    height: 270px;
+    //padding-top: px;
+    background: #F8F8F8;
+   // margin-right: 10px;
+    display: table;
+    float: left;
+    border-bottom: solid 1px white;
+}
+.leftMenuPic {
+    display: table-cell;
+    height: auto;
+    width: 210px;
+    padding-top:75px;
+    padding-left: 14px;
+        
+    
+}
+.leftMenuText {
+    display: table-cell;
+    height: auto;
+    width: 330px;
+    top:0px;
+    font-size: 27px;
+    padding-left: 10px;
+    padding-top: 21px;
+    vertical-align: middle;
 }
 .leftpaneItmes {
     background: #EDEDED;
@@ -315,15 +361,15 @@ span {
 
 #special {
     background: #5FC152 ;
-    width: 100%;
-   // height: 130px;
+    width: 542px;
     position: relative;
-    font-size: 37px;
+    font-size: 42px;
     line-height: 87px;
-    top:23px;
+    top:34px;
     padding-left: 60px;
     color: white;
     height: 87px;
+   // margin-bottom: 20px;
 }
 
 .specialsPic {
