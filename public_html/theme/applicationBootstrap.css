@@ -34,7 +34,7 @@ body {
 }
 .anchorPic {
     //padding-top:  10px;
-    padding-top:62px;
+    padding-top:48px;
     
 }
 .headerLeft {
@@ -61,10 +61,25 @@ headerLeftItems1 {
 }
 .iconPic {
     float: left;
+    padding:10px;
+}
+.iconPic2 {
+    
+    height: 40px;
+    width: 50px;
+    float: left;
+    padding-left: 43px;
 }
 .iconText {
     left: 0;
     font-weight: bold;
+}
+.iconText2 {
+   left: 0;
+font-weight: bold;
+margin-left: 129px;
+width: 315px;
+padding-right: 0px;
 }
 i
 {
@@ -154,8 +169,9 @@ span {
     padding-right: 28px;
 }
 
-#bodyColumn1 {
+.bodyColumn1 {
     height: auto;
+    padding-left: 10px;
 }
 
 .leftbody1 {
@@ -234,21 +250,19 @@ span {
 }
 .leftpanePic {
     height:154px;
-    padding-left: 20px;
-    
+    margin-left: 20px;
+    width: 120px;
    // width: 100%;
 }
 .leftpaneText {
     height: 149px;
-   // padding: 5px;
     font-size: 22px;
     background: #EDEDED;
-   
     font-weight: bold;
     color: grey;
-    font-family:sans-serif;
-   // bottom: 5px;
-   padding-top: 10px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    padding-left: 11px;;
     
 }
 .leftpaneTextPrice {
