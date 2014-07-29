@@ -145,7 +145,7 @@ span {
     display: table-cell;
     color: white;
     font-weight: bold;
-    widows: 160px;
+    width:  160px;
 }
 
 #bodyContainer {
@@ -460,16 +460,13 @@ span {
 }
 .leftpaneText {
     height: 149px;
-   // padding: 5px;
+    padding: 5px;
     font-size: 22px;
     background: #EDEDED;
-   
     font-weight: bold;
     color: grey;
-    font-family:sans-serif;
-   // bottom: 5px;
+    font-family:sans-serif
    padding-top: 25px;
-    
 }
 .leftpaneText h2 {
      font-weight: bold;
@@ -523,33 +520,119 @@ h2, h3, p {
     margin: 0px;
     font-family:"Times New Roman", Times, serif;
 }
+/*Coulumn 2 starts here*/
 
-#bodyColumn2 {
+.carousel {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 7px;
+    padding-bottom: 0px;
+}
+
+.bodyColumn2 {
     
 }
 .rightMenuHeader {
    padding-top: 35px; 
    font-size: 40px;
    padding-bottom: 30px;
+   display: inline;
    border-bottom: solid 3px green;
    
 }
 .col2SecondPic {
-    padding-top: 25px;
+    padding-top: 37px;
+    padding-bottom: 50px;
     
 }
-
-.col2Pic3 {
-   // display: table;
-   // float: left;
-   // height: 40%;
-   // width: 24%;
-    font-size: 180%;
-    padding-bottom: 40px;
-    padding-left: 24px;
-     
+.pic1 {
+    height: auto;
+    width: auto;
+}
+.pic2 {
+    height: auto;
+    width: auto;
 }
 
+
+.col2Pic3 {
+  
+font-size: 18px;
+padding-bottom: 9px;
+padding-left: 8px;
+padding-top: 26px;
+}
+.col2Pic32 {
+  
+    font-size: 18px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    padding-top: 7px;
+    height: 522px;
+}
+
+.bestSellerItem2 {
+    height: 150px;
+padding-left: 17px;
+padding-bottom: 30px;
+font-size: 26px;
+font-weight: bold;
+color: grey;
+font-family: "Times New Roman", Times, serif;
+    
+}
+.addtocart2 {
+    width: 250px;
+    height: 70px;
+    padding-left: 11px;
+}
+.borderBottom {
+    border-bottom: solid 2px grey;
+    width: auto;
+}
+.title3 {
+   height: 80px;
+padding-left: 20px;
+
+padding-top: 15px;
+}
+.col2item3 {
+    height: auto;
+    width: auto;
+}
+.price3 {
+   font-size: 35px;
+padding-top: 27px;
+}
+.rating {
+    font-size: 45px;
+}
+.addtocart3 {
+    height: 30px;
+}
+.col2Pic34 {
+  
+    font-size: 18px;
+    padding-bottom: 9px;
+    padding-left: 8px;
+    padding-top: 26px;
+}
+
+.col2Pic33 {
+    height: 500px;
+    width: auto;
+    margin: auto;
+    border: solid 1px red;
+}
+.bestSellerItems1 {
+    height: 150px;
+    padding-left: 9px;
+    padding-bottom: 30px;
+    font-size: 32px;
+    font-weight: bold;
+    color: grey;
+    font-family:"Times New Roman", Times, serif;
+}
 .bottomMenu {
     height:auto;
    // padding-top: 1px;
@@ -725,7 +808,7 @@ h2, h3, p {
     width:250px;
     height:70px;
    // padding-left: 10px;
-    padding-top: 25px;
+    padding-top: 0px;
 }
 
 .chickenClassHead {
@@ -802,4 +885,5 @@ a {
     font-size: 36px;
     padding:20px;
         
+}
 }
