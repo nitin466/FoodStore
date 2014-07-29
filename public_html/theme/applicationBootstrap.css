@@ -465,8 +465,8 @@ span {
     background: #EDEDED;
     font-weight: bold;
     color: grey;
-    font-family:sans-serif
-   padding-top: 25px;
+    font-family:"Times New Roman", Times, serif;
+    padding-top: 25px;
 }
 .leftpaneText h2 {
      font-weight: bold;
@@ -562,14 +562,7 @@ padding-bottom: 9px;
 padding-left: 8px;
 padding-top: 26px;
 }
-.col2Pic32 {
-  
-    font-size: 18px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-top: 7px;
-    height: 522px;
-}
+
 
 .bestSellerItem2 {
     height: 150px;
@@ -615,14 +608,14 @@ padding-top: 27px;
     font-size: 18px;
     padding-bottom: 9px;
     padding-left: 8px;
-    padding-top: 26px;
+    padding-top: 24px;
 }
 
 .col2Pic33 {
     height: 500px;
     width: auto;
     margin: auto;
-    border: solid 1px red;
+ 
 }
 .bestSellerItems1 {
     height: 150px;
@@ -886,4 +879,77 @@ a {
     padding:20px;
         
 }
+
+
+
+
+
+
+/*for Best Seller Itmes*/
+
+.item1 {
+    height: 770px;
+    width: auto;
+    margin: auto;
+    padding-right: 35px;
+    
+}
+.title1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    padding-top:10px;
+    
+}
+.rating1 {
+    font-size: 35px;
+    padding-top: 15px;
+}
+.price1 {
+    font-size: 36px;
+    padding-top: 20px;
+}
+.addtocart1 {
+    padding-top: 6px;
+    padding-left:4px;
+    
+}
+
+
+.item2 {
+     height: 770px;
+    width: auto;
+    margin: auto;
+    padding-right: 35px;
+}
+.rating2 {
+    font-size: 35px;
+    padding-top: 5px;
+}
+
+.addtocart2 {
+    padding-top: 9px;
+    padding-left:13px;
+    
+}
+
+.col2Pic32 {
+  
+    font-size: 18px;
+padding-bottom: 9px;
+padding-left: 8px;
+padding-top: 26px
+}
+.price3 {
+    font-size: 36px;
+    padding-top: 10px;
+}
+.rating3 {
+    font-size: 35px;
+    padding-top: 5px;
+}
+.addtocart3 {
+    padding-top: 9px;
+    padding-left:13px;
+    
 }
