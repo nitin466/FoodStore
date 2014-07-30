@@ -13,7 +13,6 @@ body {
     height: 5241px;
     width: 3810px;
     font-family:"Times New Roman", Times, serif;
-    
 }
 .container {
     width: 2300px;
@@ -24,6 +23,7 @@ body {
     height: 75px;
     background: #E4DCD2;
 }
+
 .headerContainer {
     width: 2325px;
     height: 100%;
@@ -32,12 +32,10 @@ body {
     //font-size: 165%;
     font-family:"Times New Roman", Times, serif;
 }
-.anchorPic {
-    
+.anchorPic {    
     padding-top:48px;
     width: 365px;
     height: 140px;
-    
 }
 
 .headerLeft {
@@ -60,7 +58,6 @@ body {
 headerLeftItems1 {
     display: table-cell;
     font-size: 24px;
-  
 }
 .iconPic {
     float: left;
@@ -69,6 +66,7 @@ headerLeftItems1 {
     left: 0;
     font-weight: bold;
 }
+
 i
 {
   display: inline-block;
@@ -96,12 +94,13 @@ span {
 #header1 {
     width: 3810px;
     height: 330px;
-    background:#F7EEE4;
-    
+    background:#F7EEE4;    
 }
+
 .header1content {
     padding-top: 17px;
 }
+
 #header1Container {
     width: 2325px;
     height: 100%;
@@ -122,11 +121,11 @@ span {
 }
 
 .homeNavigation {
-   
     display: table;
     float: left;
     width: 100%;   
 }
+
 .nav {
     height: 100px;
     line-height: 70px;
@@ -168,30 +167,22 @@ span {
     position: relative;
     margin-right: 10px;
     height: 532px;
-   // display: table;
-   // float: left;
-    //padding-left: 5px;
     width: 543px;
-  // height: 100%;
 }
 
 .triangleContainer {
     width: 40px;
     height: 59px;
-        
 }
+
 .triangle {
     width: 0px;
     height: 0px;
     border-bottom: 40px solid #2D2D2D;
     border-left: 40px solid #5FC152;
-    display: table-cell;
-   // margin-right: 5px;
+    display: table-cell;   // margin-right: 5px;
 }
-.rating {
-  //unicode-bidi: bidi-override;
- // direction: rtl;
-}
+
 .rating > span {
   display: inline-block;
   position: relative;
@@ -204,69 +195,55 @@ span {
 }
 .infoClass {
     height: 70px;
-    //line-height: 75px;
-    //padding-left: 55px;
     position: relative;
     display: table;
     float: left;
-    //padding-top: 8px;
-    //font-size: 39px;
-    //font-weight: bold;
     border: 1px solid rgba(250,250,250, .05);
 }
+
 .infoClassText {
   display: table-cell;
   padding-left: 13px;
   width: 520px;
- // height: 50px;
     line-height: 75px;
-   // padding-left: 4px;
     position: relative;
-    //padding-top: 8px;
     font-size: 39px;
     font-weight: bold;
-    //border: solid 1px white;
-      
 }
 
 .aboutUsClass {
     height: 180px;
-   // position: relative;
-    //line-height: 77px;
     padding-left: 38px;
-    //vertical-align: bottom;
      font-weight: bold;
      font-size: 25px;
      padding-top: 126px;
     border-bottom:1px solid rgba(255,255,255,.05);
 }
 .deliveryClass {
-   // height: 70px;
     padding-top: 16px;
     height: 70px;
-   // padding-bottom: 15px;
     padding-left: 40px;
     position: relative;
     font-weight: bold;
     font-size: 25px;
     border-bottom: 1px solid rgba(255,255,255,.05);
 }
+
 .leftpaneTopPic {
     padding-bottom: 44px;
 }
 #leftpaneMenu {
     height:auto;
     position: relative;
-    padding-bottom: 32px;
-    
+    padding-bottom: 32px;    
 }
+
 #leftMenu {
    top: 0;
     height: 270px;
     width: 543px;
     padding-top: 20px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
@@ -275,9 +252,7 @@ span {
    top: 0;
     height: 233px;
     width: 543px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
@@ -287,13 +262,12 @@ span {
     padding-left: 36px;
     top: 0;
     height: 235px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
 }
+
 .leftMenu2Text {
        display: table-cell;
     height: auto;
@@ -308,9 +282,7 @@ span {
    top: 0;
     height: 233px;
     width: 543px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     
@@ -322,9 +294,7 @@ span {
     padding-left: 39px;
     top: 0;
     height: 220px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
@@ -345,13 +315,9 @@ span {
    top: 0;
     height: 233px;
     width: 543px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
-    
-    
     border-bottom: solid 1px white;
 }
 
@@ -360,9 +326,7 @@ span {
     padding-left: 40px;
     top: 0;
     height: 220px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
@@ -383,13 +347,9 @@ span {
    top: 0;
     height: 240px;
     width: 543px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
-    
-    
     border-bottom: solid 1px white;
 }
 
@@ -398,9 +358,7 @@ span {
     padding-left: 39px;
     top: 0;
     height: 220px;
-    //padding-top: px;
     background: #F8F8F8;
-   // margin-right: 10px;
     display: table;
     float: left;
     border-bottom: solid 1px white;
@@ -417,17 +375,12 @@ span {
     vertical-align: middle;
 }
 
-
-
-
 .leftMenuPic {
     display: table-cell;
     height: auto;
     width: 210px;
     padding-top:75px;
     padding-left: 14px;
-        
-    
 }
 .leftMenuText {
     display: table-cell;
@@ -447,16 +400,9 @@ span {
     bottom: 5px;
     margin-right: 5px;
     border-bottom: solid 3px white;
-    //padding-left: 14px;
-    //padding-right: 14px;
 }
 .leftpanePic {
-    //height:140px;
-   // padding-left: 20px;
     margin-top:14px;
-   // height:538px;
-    
-   // width: 100%;
 }
 .leftpaneText {
     height: 149px;
@@ -495,7 +441,6 @@ span {
     padding-left: 60px;
     color: white;
     height: 87px;
-   // margin-bottom: 20px;
 }
 
 .specialsPic {
@@ -506,13 +451,8 @@ span {
     display: table-cell;
     width: 16%;
     font-size: 34px;
-   // font-weight: normal;
     line-height: 1;
-   
-    //font-size: 34px;
-   // top: 10px;
-   // margin: 0;
-   text-align: left;
+    text-align: left;
     position: relative;
 }
 h2, h3, p {
@@ -535,14 +475,26 @@ h2, h3, p {
 .rightMenuHeader {
    padding-top: 35px; 
    font-size: 40px;
-   padding-bottom: 30px;
+   padding-bottom: 25px;
    display: inline;
    border-bottom: solid 3px green;
    
 }
+hr {
+    padding-bottom: 5px;
+    margin-top: 3px;
+}
+
+.hr { 
+width: 100%; 
+height: 3px; 
+border: 0; 
+background-color: gray; 
+margin-top: 8px; 
+} 
 .col2SecondPic {
     padding-top: 37px;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
     
 }
 .pic1 {
@@ -557,10 +509,10 @@ h2, h3, p {
 
 .col2Pic3 {
   
-font-size: 18px;
-padding-bottom: 9px;
-padding-left: 8px;
-padding-top: 26px;
+   //font-size: 18px;
+   padding-top: 15px;
+   padding-left: 13px;
+   // padding-top: 26px;
 }
 
 
@@ -574,28 +526,28 @@ color: grey;
 font-family: "Times New Roman", Times, serif;
     
 }
-.addtocart2 {
-    width: 250px;
-    height: 70px;
-    padding-left: 11px;
-}
+
 .borderBottom {
-    border-bottom: solid 2px grey;
-    width: auto;
+    border-bottom: solid 4px gray;
+    width: 355px;
+    padding-bottom: 21px;
 }
 .title3 {
-   height: 80px;
-padding-left: 20px;
-
-padding-top: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #808080;
+    padding-top: 12px;
+    padding-left: 7px;
 }
 .col2item3 {
     height: auto;
     width: auto;
 }
 .price3 {
-   font-size: 35px;
-padding-top: 27px;
+  font-size: 36px;
+    padding-top: 23px;
+    padding-left: 8px;
+
 }
 .rating {
     font-size: 45px;
@@ -607,15 +559,20 @@ padding-top: 27px;
   
     font-size: 18px;
     padding-bottom: 9px;
-    padding-left: 8px;
+    padding-left: 13px;
     padding-top: 24px;
 }
 
 .col2Pic33 {
-    height: 500px;
+    height: 496px;
     width: auto;
     margin: auto;
+    padding-left: 30px;
  
+}
+.borderBottom3 {
+    border-bottom: solid 2px grey;
+    width: 365px;
 }
 .bestSellerItems1 {
     height: 150px;
@@ -628,7 +585,6 @@ padding-top: 27px;
 }
 .bottomMenu {
     height:auto;
-   // padding-top: 1px;
 }
 
 .chickenClass {
@@ -651,7 +607,6 @@ padding-top: 27px;
 }
 .bfClass {
    font-size: 35px;
-    //padding-top: 20px;
     padding-bottom: 30px;
     padding-top: 13px;
     color:grey;
@@ -673,7 +628,6 @@ padding-top: 27px;
 }
 
 .botpic11 {
-   // width: 34%;
     float:left;
     word-wrap: break-word;
     display: table-cell;
@@ -719,7 +673,6 @@ padding-top: 27px;
 .twitter {
     font-weight: bold;
     font-size: 28px;
-    //padding-bottom: 0px;
 }
 .tareekh {
     right: 0;
@@ -732,8 +685,6 @@ padding-top: 27px;
      width: 2325px;
     height: 100%;
     margin: auto;
-   // font-size: 165%;
-  // background: white;
 }
 
 #footer2 {
@@ -741,7 +692,6 @@ padding-top: 27px;
     height: 537px;
     margin: auto;
     font-family:"Times New Roman", Times, serif;
-   // background: yellow;
 }
 .contact {
     font-size: 34px;
@@ -758,12 +708,10 @@ padding-top: 27px;
     margin: 15px;
 }
 .icons {
-   // background: greenyellow;
     font-size: 25px;
     width: 60px;
 }
 .custServ {
-    //font-weight: bold;
     padding:5px;
     font-size: 28px;
     color: grey;
@@ -800,7 +748,6 @@ padding-top: 27px;
 .addtocart {
     width:250px;
     height:70px;
-   // padding-left: 10px;
     padding-top: 0px;
 }
 
@@ -840,7 +787,6 @@ a {
     background: #5FC152;
     line-height: 40px;
     vertical-align: middle;
-   // padding-top: 10px;
    margin-top: 14px;
    color: white;
    padding-right: 17px;
@@ -880,76 +826,247 @@ a {
         
 }
 
-
-
-
-
-
 /*for Best Seller Itmes*/
 
+.bestSellerTitle {
+    height: auto;
+    width: auto;
+    padding-top:8px;
+    padding-bottom: 8px;
+}
+.gap {
+    height: 81px;
+}
+.mostViwedTitle {
+    height: auto;
+    width: auto;
+    padding-top:8px;
+    padding-bottom: 8px;
+    }
 .item1 {
-    height: 770px;
+
+    height: 800px;
     width: auto;
     margin: auto;
     padding-right: 35px;
-    
+    padding-left: 7px;
+  //  border: solid 1px red;
+}
+.wrap1 {
+   padding-left: 2px;
+   height: auto;
+   width: auto;
+   padding-left: 5px;
+}
+.wrap2 {
+   height: auto;
+   width: auto;
+   padding-left: 5px;
+}
+
+.wrap3 {
+   height: auto;
+   width: auto;
+   padding-left: 5px;
+}
+.wrap4 {
+   height: auto;
+   width: auto;
+   padding-left: 5px;
 }
 .title1 {
     font-size: 25px;
     font-weight: bold;
     color: gray;
-    padding-top:10px;
-    
+    padding-top:13px;
+    padding-left: 10px;
 }
 .rating1 {
     font-size: 35px;
     padding-top: 15px;
+    padding-left: 7px;
 }
 .price1 {
-    font-size: 36px;
-    padding-top: 20px;
+    font-size: 35px;
+    padding-top: 23px;
+    padding-left: 10px;
+    font-family: "Times New Roman", Times, serif;
 }
 .addtocart1 {
-    padding-top: 6px;
-    padding-left:4px;
-    
+    padding-top: 9px;
+    padding-left: 11px;
 }
-
-
 .item2 {
      height: 770px;
     width: auto;
     margin: auto;
     padding-right: 35px;
+    padding-left: 15px;
+}
+
+.title2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    padding-top:11px;
+    margin-bottom: 10px;
 }
 .rating2 {
     font-size: 35px;
     padding-top: 5px;
 }
-
 .addtocart2 {
-    padding-top: 9px;
-    padding-left:13px;
-    
+    padding-top: 13px;
 }
 
 .col2Pic32 {
-  
-    font-size: 18px;
-padding-bottom: 9px;
-padding-left: 8px;
-padding-top: 26px
+  //  font-size: 18px;
+   // padding-bottom: 9px;
+   // padding-top: 2px;
+    height: 496px;
 }
+
+.price4 {
+    font-size: 36px;
+    padding-top: 23px;
+    padding-left: 21px;
+}
+.rating4 {
+    font-size: 35px;
+    padding-top: 18px;
+    padding-left: 16px;
+}
+
+.addtocart4 {
+    padding-top: 5px;
+    padding-left:16px;
+}
+
 .price3 {
     font-size: 36px;
-    padding-top: 10px;
+    padding-top: 23px;
 }
 .rating3 {
     font-size: 35px;
+    padding-top: 18px;
+}
+
+.addtocart3 {
+    padding-top: 6px;
+    padding-left:11px;
+    
+}
+.title4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    padding-top:14px;
+    padding-left: 18px;
+    
+}
+
+
+
+/*MOST VIEWED ITMS*/
+
+.mostViewedITems {
+    height: auto;
+    width: auto;
+    position:relative;
+    
+  
+}
+
+.mostviwedheader {
+    height: 75px;
+    width: auto;
+    margin-top: 80px;
+    
+}
+
+
+.rightMenuHeader2 {
+  // position: relative;
+  // top:0px;
+  // padding-top: 35px; 
+   font-size: 40px;
+  padding-bottom: 30px;
+   display: inline;
+   border-bottom: solid 3px green;
+}
+.borderGreen {
+    border-bottom: solid 2px green;
+}
+
+.item21 {
+    height: 806px;
+    width: auto;
+    margin: auto;
+   padding-top: 42px;
+  // padding-left: 10px;
+}
+
+.mostViewedPic1 {
+   height: 484px;
+   width: auto;
+   padding-left: 10px;
+}
+.title5 {
+    font-size: 25px;
+    font-weight: bold;
+    color:#808080;
+    padding-top: 13px;
+    padding-left: 6px;
+}
+.price5 {
+    font-size: 33px;
+    padding-top: 26px;
+    padding-left: 4px;
+}
+.borderGreen {
+    width: 300px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid green;
+}
+.borderBottom21 {
+    border-bottom: solid 4px gray;
+    width: 352px;
+    padding-left: 10px;
+}
+.addtocart5 {
+    width:250px;
+    height:70px;
+}
+.item22 {
+    height: 806px;
+    width: auto;
+    margin: auto;
+   padding-top: 42px;
+ // padding-left: 10px;
+}
+
+.price6 {
+    font-size: 33px;
+    padding-top: 26px;
+    padding-left: 13px;
+}
+.rating6 {
+    font-size: 35px;
+    padding-top: 18px;
+    padding-left: 13px;
     padding-top: 5px;
 }
-.addtocart3 {
-    padding-top: 9px;
-    padding-left:13px;
-    
+
+.addtocart6 {
+    width:250px;
+    height:70px;
+    padding-top: 13px;
+padding-left: 16px;
+}
+.title6 {
+    font-size: 25px;
+font-weight: bold;
+color: #808080;
+padding-top: 13px;
+padding-left: 16px;
 }
