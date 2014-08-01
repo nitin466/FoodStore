@@ -583,15 +583,12 @@ font-family: "Times New Roman", Times, serif;
     color: grey;
     font-family:"Times New Roman", Times, serif;
 }
-.bottomMenu {
-    height:auto;
-}
 
 .chickenClass {
-    padding-right: 1px;
+    padding-right: 0px;
     height: auto;
-    width: 625px;
-    padding-left:20px
+    width: auto;
+    padding-left:0px
 }
 .sodaClass {
     font-size: 28px;
@@ -652,35 +649,96 @@ font-family: "Times New Roman", Times, serif;
     padding-bottom: 35px;
     font-weight: bold;
 }
+.abtusContainer {
+    height: auto;
+    width: auto;
+    padding-left: 2px;
+    padding-top: 1px;
+    
+}
 .twitterClass {
     background:white;
-    margin: -6px;
-    padding-left:  15px;
+   // margin: -6px;
+    padding-left:  17px;
+    padding-top: 13px;
+    margin-right: 25px;
     border-radius: 12px;
+    height: 503px;
+    line-height: 32px;
+    font-weight: bold;
+   // border:solid red;
 }
 .abtUsPara {
-    font-size: 25px;
-    padding-top: 15px;
+    padding-top: 20px;
+    padding-right: 39px;
     font-weight: bold;
     color: grey;
+    line-height: 34px;
+    font-size: 26px;
     }
+    
 .abtusPic {
-    left: 0;
+   // left: 0;
+    padding-top: 4px;
+}
+.latestBlogContainer {
+    height: auto;
+    width:auto;
+    margin: 2px;
+   // border:solid red;
+    
+}
+.latestBlogContainer2 {
+    height: auto;
+    width:auto;
+    padding-top: 24px;
+    padding-left: 7px;
+}
+
+.latestBlogContainer3 {
+    height: auto;
+    width:auto;
+    padding-top: 15px;
+    padding-left: 4px;
 }
 .latestBlog {
     margin-bottom: 35px;
+    font-weight: bold;
+    //border:solid blue;
 }
 .twitter {
     font-weight: bold;
-    font-size: 28px;
+    font-size: 23px;
+    line-height: 31px;
 }
 .tareekh {
     right: 0;
     font-size: 25px;
     padding-right: 30px;
-    padding-top: 15px;
+}
+.eggPic {
+    height: auto;
+    width: auto;
+    padding-left: 15px;
 }
     
+.lateBlogPic {
+    height: auto;
+    width: auto;
+   // padding-left: 16px;
+}
+.lateBlogLine1 {
+    color:red; 
+    width: 420px;
+    font-size: 28px; 
+    padding-bottom: 17px;
+}
+
+.lateBlogLine2 {
+    color:gray; 
+    font-size: 24px;
+    line-height: 33px;
+}
 .footer1Container {
      width: 2325px;
     height: 100%;
@@ -691,13 +749,14 @@ font-family: "Times New Roman", Times, serif;
     width: 2325px;
     height: 537px;
     margin: auto;
+    font-weight: bold;
     font-family:"Times New Roman", Times, serif;
 }
 .contact {
     font-size: 34px;
     color: grey;
-    padding-top: 70px;
-    padding-bottom: 35px;
+    padding-top: 60px;
+    padding-bottom: 30px;
     font-weight: bold;
 }
 .contactElement {
@@ -705,17 +764,34 @@ font-family: "Times New Roman", Times, serif;
     color: grey;
     display: table;
     float: left;
-    margin: 15px;
+    margin-top: 9px;
+    margin-bottom: 50px;
+}
+.email {
+    height: auto;
+    width:auto;
+    
 }
 .icons {
     font-size: 25px;
     width: 60px;
 }
 .custServ {
-    padding:5px;
+    padding-top: 11px;
+    padding-bottom: 19px;
     font-size: 28px;
+    font-weight: bold;
     color: grey;
-    font-family:"Times New Roman", Times, serif;
+    font-family: "Times New Roman", Times, serif;
+}
+.newsletterContent {
+    font-size: 26px;
+    line-height: 35px;
+    padding-top: 5px;
+}
+.searchBoxBottom {
+    padding-top: 27px;
+    padding-left: 12px;
 }
 #footer3 {
     background: #2D2D2D;
@@ -752,19 +828,90 @@ font-family: "Times New Roman", Times, serif;
 }
 
 .chickenClassHead {
-    font-size: 35px;
-    padding-top: 20px;
+    font-size: 36px;
+    padding-top: 28px;
+    padding-left: 18px;
     color:green;
     font-weight:bold;
-    height: 45px;
+    background:#EFEFEF; 
+    //height: 45px;
+   // margin-top: 28px;
+   // margin-left: 51px;
 }
 .chickenClassContent {
-     font-size: 28px;
-     word-wrap:break-word;
-     height: 168px;
-     background: #EFEFEF
+    font-size: 24px;
+    font-weight: bold;
+    word-wrap:break-word;
+    height: 195px;
+    background: #EFEFEF;
+    padding-left: 22px;
+    padding-top: 16px
+}
+.chickenPic {
+    height: auto;
+    width: 481px;;
+    margin-left: 0px;
+}
+.chicPicWrap {
+    height: auto;
+    width: 480px;
+    padding-left: 25px;
+    background: #EFEFEF;
+}
+.chicText {
+   // background:#EFEFEF; 
+    padding-left:16px;
+    width: 277px;
+    height: 274px;
+    color: gray;
+}
+.burgerText {
+   // background:#EFEFEF; 
+    //padding-left:16px;
+   width: 300px;
+   
+   vertical-align:top;
+    //height: 274px;
+    display: table-cell;
+   
 }
 
+.burgerClass {
+    display: table;
+    float: left;
+    height: 277px;;
+    width: 757px;
+    margin-left: 8px;
+    //border: solid 1px red;
+   
+}
+.burgerClassHead {
+    font-size: 36px;
+    padding-top: 28px;
+    padding-left: 18px;
+    color:red;
+    font-weight:bold;
+    background:#EFEFEF; 
+}
+.burgerClassContent {
+    font-size: 24px;
+    color: gray;
+    font-weight: bold;
+    word-wrap:break-word;
+    height: 193px;
+    background: #EFEFEF;
+    padding-left: 22px;
+    padding-top: 16px
+}
+.burgerPicWrap {
+    display: table-cell;
+    height: auto;
+  //  width: 400px;
+}
+.burgerPic {
+    height: auto;
+    width: 452px;;
+}
 a {
     color:white;
 }
@@ -795,11 +942,12 @@ a {
 }
 
 .phoneGreen {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 50px;
     background: #5FC152;
-    color: white;
-    padding-left: 13px;
+    color: #FFF;
+    padding-left: 19px;
+    padding-top: 4px;
     border-radius: 2px;
     margin: 6px;
     display: table-cell;
@@ -811,14 +959,16 @@ a {
     display: table-cell;
 }
 .envelope {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 50px;
     background: #5FC152;
-    color: white;
-    padding-left: 6px;
+    color: #FFF;
+    padding-top: 6PX;
+    padding-left: 12px;
     border-radius: 2px;
     margin: 6px;
     display: table-cell;
+
 }
 .headerRight span {
     font-size: 36px;
@@ -835,7 +985,7 @@ a {
     padding-bottom: 8px;
 }
 .gap {
-    height: 81px;
+    height: 70px;
 }
 .mostViwedTitle {
     height: auto;
@@ -853,7 +1003,6 @@ a {
   //  border: solid 1px red;
 }
 .wrap1 {
-   padding-left: 2px;
    height: auto;
    width: auto;
    padding-left: 5px;
@@ -998,13 +1147,13 @@ a {
     border-bottom: solid 2px green;
 }
 
-.item21 {
+/*.item21 {
     height: 806px;
     width: auto;
     margin: auto;
    padding-top: 42px;
   // padding-left: 10px;
-}
+}*/
 
 .mostViewedPic1 {
    height: 484px;
@@ -1069,4 +1218,81 @@ font-weight: bold;
 color: #808080;
 padding-top: 13px;
 padding-left: 16px;
+}
+
+.wrap21 {
+    height: auto;
+    width: auto;
+    padding-left: 4px;
+    padding-top: 3px;
+}
+.wrap22 {
+    height: auto;
+    width: auto;
+    padding-left: 12px;
+    padding-top: 5px;
+}
+.wrap23 {
+    height: auto;
+    width: auto;
+    padding-left: 23px;
+    padding-top: 3px;
+}
+.wrap24 {
+    height: auto;
+    width: auto;
+    padding-left: 30px;
+}
+
+.item21 {
+
+    height: 800px;
+    width: auto;
+   
+    padding-right: 0px;
+    padding-left: 3px;
+   
+}
+.mostViewedPic {
+   //font-size: 18px;
+   padding-top: 16px;
+   padding-left: 3px;
+   // padding-top: 26px;
+
+}
+.borderBottom2 {
+    border-bottom: solid 4px gray;
+    width: 355px;
+    padding-bottom: 18px;
+}
+
+.title21 {
+    font-size: 25px;
+    font-weight: bold;
+    color: gray;
+    padding-top:14px;
+    padding-left: 3px;
+}
+
+.price21 {
+    font-size: 33px;
+    padding-top: 26px;
+    padding-left: 3px;
+    font-family: "Times New Roman", Times, serif;
+}
+.rating21 {
+    font-size: 35px;
+    padding-top: 14px;
+    padding-left: 3px;
+}
+.addtocart21 {
+    padding-top: 5px;
+    padding-left: 3px;
+}
+.bottomItems {
+    height: auto;
+    width: auto;
+    padding-top: 78px;
+       
+    
 }
