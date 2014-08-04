@@ -17,7 +17,6 @@ body {
 .container {
     width: 2300px;
 }
-
 #header {
     width: 3810px;
     height: 75px;
@@ -29,7 +28,6 @@ body {
     height: 100%;
     margin: auto;
     padding-right: 30px;
-    //font-size: 165%;
     font-family:"Times New Roman", Times, serif;
 }
 .anchorPic {    
@@ -37,7 +35,6 @@ body {
     width: 365px;
     height: 140px;
 }
-
 .headerLeft {
     display: table;
     line-height: 70px;
@@ -51,7 +48,6 @@ body {
 .headerLeftItems {
     display: table-cell;
     font-size: 24px;
-    //width: 200px;
   
 }
 
@@ -61,12 +57,13 @@ headerLeftItems1 {
 }
 .iconPic {
     float: left;
+    padding-top: 21px;
+    padding-left: 22px;
 }
 .iconText {
     left: 0;
     font-weight: bold;
 }
-
 i
 {
   display: inline-block;
@@ -77,14 +74,11 @@ i
   -webkit-box-shadow: 0px 0px 2px #888;
   box-shadow: 0px 0px 2px #888;
 }
-
 .b {
 font-size: 1.5em;
 white-space: nowrap;
 }
 span {
-    //padding-left: 72px;
-    //padding-right: 57px;
 }
 
 .headerRight {
@@ -107,9 +101,10 @@ span {
     margin: auto;
     padding-right: 28px;
 }
-.header1Column {
+
+.header1Columntruck {
     display: table-cell;
-    width: 520px;
+    width: 16%;
     font-size: 34px;
     line-height: 1;
     padding-top: 60px;
@@ -131,6 +126,7 @@ span {
     line-height: 70px;
     font-size: 30px;
     padding: 16px;
+    margin-top: 10px;
     bottom:0;
     top:62px;
     background: #B49873;
@@ -151,7 +147,6 @@ span {
     width: 2325px;
     height: 3507px;
     margin: auto;
-    //background: yellowgreen;
     top: 26px;
     position: relative;
     padding-right: 28px;
@@ -180,7 +175,7 @@ span {
     height: 0px;
     border-bottom: 40px solid #2D2D2D;
     border-left: 40px solid #5FC152;
-    display: table-cell;   // margin-right: 5px;
+    display: table-cell;
 }
 
 .rating > span {
@@ -230,7 +225,8 @@ span {
 }
 
 .leftpaneTopPic {
-    padding-bottom: 44px;
+    padding-bottom: 39px;
+    margin-top: 5px;
 }
 #leftpaneMenu {
     height:auto;
@@ -240,14 +236,46 @@ span {
 
 #leftMenu {
    top: 0;
-    height: 270px;
+   height: auto;
     width: 543px;
-    padding-top: 20px;
+    margin-top: 10px;
     background: #F8F8F8;
     display: table;
     float: left;
     border-bottom: solid 1px white;
 }
+.leftMenuItems {
+    height: 268px;
+    font-weight: bold;
+    border: solid 2px white;
+    
+}
+.leftMenuContainer1 {
+    margin-top: 8px;
+}
+
+.leftMenuContainer2 {
+    height: 240px;
+    padding-top: 3px;
+    border: solid 1px white;
+}
+.leftMenuContainer3 {
+    height: 237px;
+    padding-top: 0px;
+    border: solid 1px white; 
+}
+.leftMenuContainer4 {
+    height: 235px;
+    padding-top: 3px;
+    border: solid 1px white; 
+}
+
+.leftMenuContainer5 {
+    height: 240px;
+    padding-top: 3px;
+    border: solid 1px white; 
+}
+
 #leftMenu2 {
    top: 0;
     height: 233px;
@@ -278,6 +306,16 @@ span {
     padding-top: 0px;
     vertical-align: middle;
 } 
+.heading {
+    font-size: 30px;
+    margin-top: 18px;
+    margin-left: 1px;
+}
+.leftpaneDescription {
+    font-size: 26px;
+    padding-top: 7px;
+    padding-left: 8px;
+}
 #leftMenu3 {
    top: 0;
     height: 233px;
@@ -354,7 +392,7 @@ span {
 }
 
 .leftMenu5Pic {
-     padding-top: 26px;
+    padding-top: 26px;
     padding-left: 39px;
     top: 0;
     height: 220px;
@@ -365,7 +403,7 @@ span {
 }
 
 .leftMenu5Text {
-       display: table-cell;
+    display: table-cell;
     height: 229px;;
     width: 330px;
     top:0px;
@@ -375,12 +413,44 @@ span {
     vertical-align: middle;
 }
 
+.leftMenuPic1 {
+    padding-top:90px;
+    padding-left: 29px;
+}
+.leftMenuPic2 {
+    padding-top:23px;
+    padding-left: 53px;
+}
 .leftMenuPic {
-    display: table-cell;
-    height: auto;
-    width: 210px;
-    padding-top:75px;
-    padding-left: 14px;
+    padding-top: 62px;
+    padding-left: 58px;
+}
+.leftMenuHead {
+    font-size: 26px;
+    margin-top: 72px;
+}
+.leftMenuHead2 {
+    font-size: 26px;
+    margin-top: 38px;
+    font-weight: bold;
+}
+.leftmenuPrice {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 29px;
+}
+.leftmenuPrice2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 29px;
+}
+.ratingSpecial {
+    font-size: 30px;
+    margin-top: 22px;
+}
+.ratingSpecial2 {
+    font-size: 30px;
+    margin-top: 22px;
 }
 .leftMenuText {
     display: table-cell;
@@ -402,17 +472,31 @@ span {
     border-bottom: solid 3px white;
 }
 .leftpanePic {
-    margin-top:14px;
+    //border:solid 1px;
+    margin-left: 22px;
+    margin-top: 25px;
+}
+.leftpanePic2 {
+    //border:solid 1px;
+    margin-left: 36px;
+    margin-top: 30px;
+}
+.leftpanePic3 {
+    //border:solid 1px;
+    margin-left: 24px;
+    margin-top: 31px;
+}
+.leftpanePic4 {
+    margin-left: 24px;
+    margin-top: 36px;
 }
 .leftpaneText {
-    height: 149px;
-    padding: 5px;
-    font-size: 22px;
+    height: 142px;
     background: #EDEDED;
     font-weight: bold;
     color: grey;
     font-family:"Times New Roman", Times, serif;
-    padding-top: 25px;
+    
 }
 .leftpaneText h2 {
      font-weight: bold;
@@ -450,18 +534,18 @@ span {
 .header1Column {
     display: table-cell;
     width: 16%;
+    padding-left: 33px;
     font-size: 34px;
     line-height: 1;
     text-align: left;
     position: relative;
 }
+
 h2, h3, p {
     padding: 0px;
     margin: 0px;
     font-family:"Times New Roman", Times, serif;
 }
-/*Coulumn 2 starts here*/
-
 .carousel {
     padding-left: 2px;
     padding-right: 2px;
@@ -475,9 +559,9 @@ h2, h3, p {
 .rightMenuHeader {
    padding-top: 35px; 
    font-size: 40px;
-   padding-bottom: 25px;
+   padding-bottom: 20px;
    display: inline;
-   border-bottom: solid 3px green;
+   border-bottom: solid 4px green;
    
 }
 hr {
@@ -487,7 +571,7 @@ hr {
 
 .hr { 
 width: 100%; 
-height: 3px; 
+height: 2px; 
 border: 0; 
 background-color: gray; 
 margin-top: 8px; 
@@ -508,29 +592,27 @@ margin-top: 8px;
 
 
 .col2Pic3 {
-  
-   //font-size: 18px;
    padding-top: 15px;
    padding-left: 13px;
-   // padding-top: 26px;
 }
 
 
 .bestSellerItem2 {
     height: 150px;
-padding-left: 17px;
-padding-bottom: 30px;
-font-size: 26px;
-font-weight: bold;
-color: grey;
-font-family: "Times New Roman", Times, serif;
+    padding-left: 17px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-weight: bold;
+    color: grey;
+    font-family: "Times New Roman", Times, serif;
     
 }
 
 .borderBottom {
     border-bottom: solid 4px gray;
     width: 355px;
-    padding-bottom: 21px;
+    padding-bottom: 26px;
+    margin-left: 11px;
 }
 .title3 {
     font-size: 25px;
@@ -581,7 +663,7 @@ font-family: "Times New Roman", Times, serif;
     font-size: 32px;
     font-weight: bold;
     color: grey;
-    font-family:"Times New Roman", Times, serif;
+    font-family:Times New Roman, Times, serif;
 }
 
 .chickenClass {
@@ -658,15 +740,23 @@ font-family: "Times New Roman", Times, serif;
 }
 .twitterClass {
     background:white;
-   // margin: -6px;
     padding-left:  17px;
     padding-top: 13px;
     margin-right: 25px;
     border-radius: 12px;
     height: 503px;
     line-height: 32px;
-    font-weight: bold;
-   // border:solid red;
+    font-weight: bold;;
+}
+.twitterClassText {
+    height: 193px;
+    margin-top: 12px;
+    font-size: 25px;
+}
+.twitterClassText2 {
+    height: 193px;
+    margin-top: 12px;
+    font-size: 25px;
 }
 .abtUsPara {
     padding-top: 20px;
@@ -677,15 +767,13 @@ font-family: "Times New Roman", Times, serif;
     font-size: 26px;
     }
     
-.abtusPic {
-   // left: 0;
+.abtusPic {;
     padding-top: 4px;
 }
 .latestBlogContainer {
     height: auto;
     width:auto;
     margin: 2px;
-   // border:solid red;
     
 }
 .latestBlogContainer2 {
@@ -704,7 +792,6 @@ font-family: "Times New Roman", Times, serif;
 .latestBlog {
     margin-bottom: 35px;
     font-weight: bold;
-    //border:solid blue;
 }
 .twitter {
     font-weight: bold;
@@ -725,7 +812,6 @@ font-family: "Times New Roman", Times, serif;
 .lateBlogPic {
     height: auto;
     width: auto;
-   // padding-left: 16px;
 }
 .lateBlogLine1 {
     color:red; 
@@ -756,16 +842,18 @@ font-family: "Times New Roman", Times, serif;
     font-size: 34px;
     color: grey;
     padding-top: 60px;
+    padding-left: 5px;
     padding-bottom: 30px;
     font-weight: bold;
 }
 .contactElement {
-    font-size: 28px;
+   
     color: grey;
     display: table;
     float: left;
-    margin-top: 9px;
-    margin-bottom: 50px;
+    font-size: 26px;
+    margin-top: 5px;
+    margin-bottom: 46px;
 }
 .email {
     height: auto;
@@ -777,8 +865,9 @@ font-family: "Times New Roman", Times, serif;
     width: 60px;
 }
 .custServ {
-    padding-top: 11px;
+    padding-top: 10px;
     padding-bottom: 19px;
+    padding-left: 8px;
     font-size: 28px;
     font-weight: bold;
     color: grey;
@@ -788,10 +877,11 @@ font-family: "Times New Roman", Times, serif;
     font-size: 26px;
     line-height: 35px;
     padding-top: 5px;
+    color: gray;
 }
 .searchBoxBottom {
-    padding-top: 27px;
-    padding-left: 12px;
+    padding-top: 22px;
+    padding-left: 5px;
 }
 #footer3 {
     background: #2D2D2D;
@@ -799,6 +889,7 @@ font-family: "Times New Roman", Times, serif;
     height: 188px;
     bottom: 0;
     position: relative;
+    line-height: 30px;
     font-size: 30px;
     font-family:"Times New Roman", Times, serif;
 }
@@ -834,9 +925,6 @@ font-family: "Times New Roman", Times, serif;
     color:green;
     font-weight:bold;
     background:#EFEFEF; 
-    //height: 45px;
-   // margin-top: 28px;
-   // margin-left: 51px;
 }
 .chickenClassContent {
     font-size: 24px;
@@ -866,12 +954,9 @@ font-family: "Times New Roman", Times, serif;
     color: gray;
 }
 .burgerText {
-   // background:#EFEFEF; 
-    //padding-left:16px;
    width: 300px;
    
    vertical-align:top;
-    //height: 274px;
     display: table-cell;
    
 }
@@ -882,7 +967,6 @@ font-family: "Times New Roman", Times, serif;
     height: 277px;;
     width: 757px;
     margin-left: 8px;
-    //border: solid 1px red;
    
 }
 .burgerClassHead {
@@ -906,7 +990,6 @@ font-family: "Times New Roman", Times, serif;
 .burgerPicWrap {
     display: table-cell;
     height: auto;
-  //  width: 400px;
 }
 .burgerPic {
     height: auto;
@@ -934,11 +1017,11 @@ a {
     background: #5FC152;
     line-height: 40px;
     vertical-align: middle;
-   margin-top: 14px;
-   color: white;
-   padding-right: 17px;
-   border-radius: 7px;
-   font-size: 25px;
+    margin-top: 14px;
+    color: white;
+    padding-right: 17px;
+    border-radius: 7px;
+    font-size: 25px;
 }
 
 .phoneGreen {
@@ -955,7 +1038,7 @@ a {
 .phone {
     height: 40px;
     width: auto;
-   // float: left;
+    font-size: 26px;
     display: table-cell;
 }
 .envelope {
@@ -971,8 +1054,8 @@ a {
 
 }
 .headerRight span {
-    font-size: 36px;
-    padding:20px;
+    font-size: 32px;
+    padding:15px;
         
 }
 
@@ -1000,7 +1083,6 @@ a {
     margin: auto;
     padding-right: 35px;
     padding-left: 7px;
-  //  border: solid 1px red;
 }
 .wrap1 {
    height: auto;
@@ -1069,9 +1151,6 @@ a {
 }
 
 .col2Pic32 {
-  //  font-size: 18px;
-   // padding-bottom: 9px;
-   // padding-top: 2px;
     height: 496px;
 }
 
@@ -1114,16 +1193,12 @@ a {
     
 }
 
-
-
 /*MOST VIEWED ITMS*/
 
 .mostViewedITems {
     height: auto;
     width: auto;
     position:relative;
-    
-  
 }
 
 .mostviwedheader {
@@ -1132,28 +1207,17 @@ a {
     margin-top: 80px;
     
 }
-
-
 .rightMenuHeader2 {
-  // position: relative;
-  // top:0px;
-  // padding-top: 35px; 
-   font-size: 40px;
-  padding-bottom: 30px;
-   display: inline;
-   border-bottom: solid 3px green;
+    font-size: 40px;
+    padding-bottom: 30px;
+    display: inline;
+    border-bottom: solid 3px green;
 }
 .borderGreen {
     border-bottom: solid 2px green;
 }
 
-/*.item21 {
-    height: 806px;
-    width: auto;
-    margin: auto;
-   padding-top: 42px;
-  // padding-left: 10px;
-}*/
+
 
 .mostViewedPic1 {
    height: 484px;
@@ -1191,7 +1255,6 @@ a {
     width: auto;
     margin: auto;
    padding-top: 42px;
- // padding-left: 10px;
 }
 
 .price6 {
@@ -1254,10 +1317,8 @@ padding-left: 16px;
    
 }
 .mostViewedPic {
-   //font-size: 18px;
    padding-top: 16px;
    padding-left: 3px;
-   // padding-top: 26px;
 
 }
 .borderBottom2 {
@@ -1275,7 +1336,7 @@ padding-left: 16px;
 }
 
 .price21 {
-    font-size: 33px;
+    font-size: 35px;
     padding-top: 26px;
     padding-left: 3px;
     font-family: "Times New Roman", Times, serif;
@@ -1292,7 +1353,34 @@ padding-left: 16px;
 .bottomItems {
     height: auto;
     width: auto;
-    padding-top: 78px;
-       
+    padding-top: 74px;
+}
+
+.circle1 {
+    width: 76px;
+    height: 76px;
+    border-radius: 38px;
+    background:  #4D4D4D;
+    color: white;
+    float: left;
+}
+
+.circle2 {
+    width: 76px;
+    height: 76px;
+    border-radius: 38px;
+    color: white;
+    background:  #D70041;
+    float: left;
+}
+.circle3 {
+    width: 76px;
+    height: 76px;
+    border-radius: 38px;
+    color: white;
+    background:  #5FC152;
+    float: left;
+}
+.truckContainer {
     
 }
